@@ -1,4 +1,4 @@
-# The tasker sub-system gives bash to html with php.
+# The tasker sub-system allows html web pages to execute bash commands.
 
 This code, in its entirety, was written by ChatGPT in only four hours. It made only one
 mistake, which it corrected when I pointed it out.
