@@ -28,3 +28,15 @@ Require valid-user
   Require all denied
 </Files>
 
+# Or you could do it like this
+#
+#<FilesMatch ".*">
+#    Order Deny,Allow
+#    Deny from all
+#</FilesMatch>
+#
+#<FilesMatch "^(index\.php|contact\.html|about\.jpg)$">
+#    Order Allow,Deny
+#    Allow from all
+#</FilesMatch>
+#
