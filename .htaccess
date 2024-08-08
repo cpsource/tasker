@@ -2,3 +2,29 @@ AuthType Basic
 AuthName "Restricted Area"
 AuthUserFile /var/www/html/tasker/.htpasswd
 Require valid-user
+
+<Files "*-helper-*.php">
+    Require all denied
+</Files>
+<Files "LICENSE">
+  Require all denied
+</Files>
+<Files "README.md">
+  Require all denied
+</Files>
+<Files "check_sqlite3_config.php">
+  Require all denied
+</Files>
+<Files "footer.php">
+  Require all denied
+</Files>
+<Files "tasker.sh">
+  Require all denied
+</Files>
+<Files "tasker_initialize.php">
+  Require all denied
+</Files>
+<Files "tasker_initialize.sh">
+  Require all denied
+</Files>
+
